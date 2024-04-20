@@ -11,3 +11,5 @@ Additional packages for OpenCppCoverage fork
 > nuget.exe install LevelDB -Source /path/to/OpenCppCoverage/sources -OutputDirectory packages
 > nuget.exe install nlohmann_json -Source /path/to/OpenCppCoverage/sources -OutputDirectory packages
 ```
+## Known issues
+* LevelDB package can be used only in Release build
